@@ -1,0 +1,13 @@
+from numpy import random
+
+array=random.randint(100, size=(100))
+
+repetido = []
+unico = []
+ 
+for x in array:
+	if x not in unico:
+		unico.append(x)
+	else:
+		if x not in repetido:
+			repetido.append(x)

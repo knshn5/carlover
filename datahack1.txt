@@ -1,0 +1,7 @@
+suma, Udigito = 0, 0
+numero = int(input("Ingrese un numero entero: "))
+while numero != 0:
+    Udigito = numero % 10
+    numero = numero // 10
+    suma = suma + Udigito
+print("La suma de los digitos es: {}".format(suma))
